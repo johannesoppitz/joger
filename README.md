@@ -6,7 +6,7 @@ Please don't expect a professional presentation yet.
 Overview
 --------
 
-Joger is a high-level, general-purpose programming language inspired by the author's experience with C, D, Java and Python. Like most modern languages, Joger promises readable syntax, fast code execution, robustness and platform-independence. Have a look at the [wiki](https://github.com/johannesoppitz/joger/wiki) to get a first glance!
+Joger is a high-level, general-purpose programming language inspired by the author's experience with C, D, Java and Python (and a syntax influenced by many more). Like most modern languages, Joger promises readable syntax, fast code execution, robustness and platform-independence. Have a look at the [wiki](https://github.com/johannesoppitz/joger/wiki) to get a first glance.
 
 Installing
 --------
@@ -14,7 +14,7 @@ Installing
 The compiler is currently written entirely in the D programming language. You can find links to popular and free D compilers [here](https://dlang.org/download.html).
 Because the project is in an early stage, it is currently built on Windows without using an IDE. Right now, you can simply execute 'make.bat' (a makefile for linux will follow soon) and play around with the debug-executable.
 
-Joger does not compile into native binaries, but generates optimized C code. Therefore you also need to have a stable C compiler on your system.
+Joger does not compile into native binaries, but generates optimized C code. Therefore you also need to have a stable C compiler on your system, ideally with full support of C99 or later.
 
 Testing
 --------
