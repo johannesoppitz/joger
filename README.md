@@ -22,6 +22,15 @@ Testing
 Most functions and struct methods come with unittests. Large classes like the lexer require extensive tests which should be put in /src/compiler/test. These time- and resource-consuming tests get only executed via special program arguments
 (for example, 'joger -acid_lexer' runs all the tests specified in 'acid_lexer.d').
 
+Development Process
+--------
+
+Joger is currently being developed using strict documentation-driven design. Adding, editing and removing features always happens in four steps:
+1. The wiki gets updated.
+2. The unittests, testing modules and test ressources get updated.
+3. The actual source code gets updated and tested until the software passes all tests.
+4. The master branch on GitHub gets updated.
+
 Copyright and License Information
 --------
 
